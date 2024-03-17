@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background: #2c0000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    background: wheat;
+    padding: 40px;
+    border-radius: 10px;
+    margin: 30px 0;
+}
+.container input{
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 6px;
+    border: 2px solid black;
+}
+.container button{
+    font-size:  20px;
+    padding: 10px 20px;
+    background: #2c0000;
+    color: wheat;
+    border: none;
+    cursor: pointer;
+    border-radius: 6px;
+    margin-left: 10px;
+}
